@@ -54,6 +54,7 @@ resetBtn.onclick = () => {
         clearInterval(intervalCount)
         intervalCount = undefined
         span.textContent = '00'
+        taggleStop = true
         taggeleStopBtn()
         sessionStorage.clear()
     })
